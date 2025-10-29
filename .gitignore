@@ -1,0 +1,6 @@
+# ignore artifacts and venv
+artifacts/
+*.log
+triage/venv/
+__pycache__/
+*.pyc

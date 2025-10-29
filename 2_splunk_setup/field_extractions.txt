@@ -1,0 +1,7 @@
+# Field extraction used for syslog_like_test logs
+# Source: Splunk Web (Settings → Fields → Field Extractions)
+# Owner: jay | App: search | Type: Inline
+
+[syslog_like_test : EXTRACT-extract_field]
+REGEX = .*\\s+(?<status>Accepted|Failed)\\s+password\\s+for\\s+\\w+\\s+from\\s+(?<src_ip>\\d+\\.\\d+\\.\\d+\\.\\d+)\\s+port\\s+(?<port>\\d+)
+FORMAT = status::$1 src_ip::$2 port::$3
