@@ -62,7 +62,3 @@ Example JSON payload:
 - All IPs, users, and alerts are simulated for demonstration only.  
 - The “containment” step is a log entry, not a real network block.  
 - Designed for SOC Analyst learning and portfolio demonstration.  
-
----
-
-**Author:** Jay Kudtarkar
